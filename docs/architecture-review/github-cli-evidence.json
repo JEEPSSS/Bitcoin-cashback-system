@@ -1,0 +1,71 @@
+{
+  "cli_version": "gh version 2.101.0 (2026-09-15)",
+  "repository": {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "homepageUrl": "",
+    "nameWithOwner": "JEEPSSS/Bitcoin-cashback-system",
+    "pushedAt": "2026-10-22T15:06:52Z",
+    "url": "https://github.com/JEEPSSS/Bitcoin-cashback-system"
+  },
+  "commit": {
+    "sha": "025401622bd36297aaf05db45771d5dea4b2a736",
+    "url": "https://github.com/JEEPSSS/Bitcoin-cashback-system/commit/025401622bd36297aaf05db45771d5dea4b2a736"
+  },
+  "ci": {
+    "conclusion": "success",
+    "jobs": [
+      {
+        "conclusion": "success",
+        "name": "Mobile (typecheck)",
+        "status": "completed"
+      },
+      {
+        "conclusion": "success",
+        "name": "Backend (lint + tests)",
+        "status": "completed"
+      },
+      {
+        "conclusion": "success",
+        "name": "Backend on Postgres (migrations + tests)",
+        "status": "completed"
+      }
+    ],
+    "status": "completed"
+  },
+  "file_checks": [
+    {
+      "path": "main.py",
+      "bytes": 11053,
+      "content_matches_reviewed_clone": true,
+      "matches_original_review_code": true
+    },
+    {
+      "path": "app/anomaly_detector.py",
+      "bytes": 15000,
+      "content_matches_reviewed_clone": true,
+      "matches_original_review_code": true
+    },
+    {
+      "path": "mobile/lib/auth.tsx",
+      "bytes": 2002,
+      "content_matches_reviewed_clone": true,
+      "matches_original_review_code": true
+    },
+    {
+      "path": "app/routers/transactions.py",
+      "bytes": 7578,
+      "content_matches_reviewed_clone": true,
+      "matches_original_review_code": true
+    },
+    {
+      "path": "mobile/eas.json",
+      "bytes": 526,
+      "content_matches_reviewed_clone": true,
+      "matches_original_review_code": true
+    }
+  ],
+  "operations": "Read-only repo view, run view, and api GET requests only",
+  "mirror_provenance": "Application files match the previously reviewed new-repository snapshot; original-repository metadata and CI verified separately."
+}

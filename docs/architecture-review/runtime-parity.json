@@ -1,0 +1,12 @@
+{
+  "original_repository": "JEEPSSS/Bitcoin-cashback-system",
+  "original_snapshot": "025401622bd36297aaf05db45771d5dea4b2a736",
+  "mirrored_from_repository": "JEEPSSS/Credit-card-with-bitcoin-cashback-system-BitBack",
+  "mirrored_documentation_snapshot": "e533bf27db33c54a4429c07b168f190fca99a954",
+  "non_documentation_paths_compared": 159,
+  "comparison": "Git blob IDs for every tracked path except README.md and docs/",
+  "all_non_documentation_files_match": true,
+  "differing_non_documentation_paths": [],
+  "original_app_audit_preserved": true,
+  "reason": "Preserve valid historical commit and release references for the original repository"
+}
